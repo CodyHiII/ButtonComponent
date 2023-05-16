@@ -1,0 +1,42 @@
+:root {
+  --white: #ffffff;
+  --white-med: #f2f4fc;
+
+  --gray-light: #e6eaf9;
+  --gray-light-hover: #ced5f3;
+  --gray-med: #7e85a9;
+  --gray-med-hover: #666e99;
+  --gray-dark: #52587a;
+
+  --black: #031163;
+
+  --blue-accent: #1748c0;
+  --blue-accent-hover: #133ca0;
+  --blue-accent-transparent: #1748c033;
+
+  --amber-accent: #ffbd00;
+  --amber-accent-hover: #fbbb0c;
+
+  --darkBrown-accent: #37371f;
+  --darkBrown-accent-hover: #45452b;
+
+  --dark-blue: #070c2c;
+
+  --pink-accent: #eb0081;
+
+  --level-up-btn: #fa9600;
+
+  --success: #34c759;
+  --success-hover: #2dad4d;
+  --danger: #eb0017;
+  --danger-hover: #b90315;
+  --info: #00bbf9;
+  --info-hover: #57d5ff;
+
+  --success-transparent: #34c75933;
+  --alert-transparent: #ff9f0a33;
+
+  --gold-light: #f0a000;
+  --gold-med: #db9200;
+  --gold-dark: #f07c00;
+}

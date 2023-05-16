@@ -1,0 +1,143 @@
+.default {
+  --color: white;
+  --background: var(--blue-accent);
+  --padding: 16px 32px;
+  --font-size: 20px;
+  --border-radius: 0;
+  --outline: var(--blue-accent);
+
+  background: var(--background);
+  color: var(--color);
+  padding: var(--padding);
+  font-size: var(--font-size);
+  border: none;
+  border-radius: var(--border-radius);
+  transition: all 300ms ease;
+  line-height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.mainBtnText {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnIcon {
+  max-width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default.rounded {
+  --border-radius: 100px;
+}
+
+.default.outline {
+  --background: none !important;
+  --color: var(--outline);
+  border: 2px solid var(--outline);
+}
+
+.default.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.default.primary {
+  --background: var(--blue-accent);
+  --outline: var(--blue-accent);
+}
+
+.default:hover.primary {
+  background: var(--blue-accent-hover);
+  color: white;
+}
+
+.default.secondary {
+  --background: var(--amber-accent);
+  --outline: var(--amber-accent);
+}
+
+.default:hover.secondary {
+  background: var(--amber-accent-hover);
+  color: black;
+}
+
+.default.tertiary {
+  --background: var(--darkBrown-accent);
+  --outline: var(--darkBrown-accent);
+}
+
+.default:hover.tertiary {
+  background: var(--darkBrown-accent-hover);
+  color: white;
+}
+
+.default.success {
+  --background: var(--success);
+  --outline: var(--success);
+}
+
+.default:hover.success {
+  background: var(--success-hover);
+  color: white;
+}
+
+.default.danger {
+  --background: var(--danger);
+  --outline: var(--danger);
+}
+
+.default:hover.danger {
+  background: var(--danger-hover);
+  color: white;
+}
+
+.default.info {
+  --background: var(--info);
+  --outline: var(--info);
+}
+
+.default:hover.info {
+  background: var(--info-hover);
+  color: black;
+}
+
+.default.sm {
+  --padding: 10px 15px;
+  --font-size: 18px;
+}
+
+.default.md {
+  --padding: 15px 18px;
+  --font-size: 20px;
+}
+
+.default.lg {
+  --padding: 15px 43px;
+  --font-size: 22px;
+}
+
+.default.smIcon {
+  --padding: 15px;
+  --font-size: 18px;
+}
+
+.default.mdIcon {
+  --padding: 18px;
+  --font-size: 20px;
+}
+
+.default.lgIcon {
+  --padding: 22px;
+  --font-size: 22px;
+}
+
+.default:active {
+  transform: scale(0.9);
+}

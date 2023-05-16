@@ -1,0 +1,25 @@
+.container {
+  padding: clamp(20px, 10vw, 150px);
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.buttonRow:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+section h1 {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
